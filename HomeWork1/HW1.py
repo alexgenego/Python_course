@@ -1,13 +1,13 @@
 # Задача 2: Найдите сумму цифр трехзначного числа  - решаем в общем виде, число разрядов любое
 
-n = int(input())
-sum = 0
-while n > 0:
-    rem = n % 10 # or string 7
-    sum = sum + rem # sum += n % 10
-    n = n // 10
+# n = int(input())
+# sum = 0
+# while n > 0:
+#     rem = n % 10 # or string 7
+#     sum = sum + rem # sum += n % 10
+#     n = n // 10
     
-print("Sum:", sum)
+# print("Sum:", sum)
 
 # Задача 4: Петя, Катя и Сережа делают из бумаги журавликов. Вместе
 # они сделали S журавликов. Сколько журавликов сделал каждый
@@ -16,15 +16,15 @@ print("Sum:", sum)
 # чем Петя и Сережа вместе?
 # S = Pet{x} + Ser{x} + Cat{4x} = 6x
 
-n = int(input())
-sum = 6*n
-Peter = n
-Serjio = n
-Catti = 4*n
-print("total:", sum)
-print("Peter:", n)
-print("Serjio:", n)
-print("Catti:", Catti)
+# n = int(input())
+# sum = 6*n
+# Peter = n
+# Serjio = n
+# Catti = 4*n
+# print("total:", sum)
+# print("Peter:", n)
+# print("Serjio:", n)
+# print("Catti:", Catti)
 
 
 # Задача 6: Вы пользуетесь общественным транспортом? Вероятно, вы
@@ -34,22 +34,22 @@ print("Catti:", Catti)
 # 385916 – счастливый, т.к. 3+8+5=9+1+6. Вам требуется написать
 # программу, которая проверяет счастливость билета.
 
-print("введите 6-значный номер билета")
-n = int(input())
-sum = 0
-sum1 = 0
-while n >= 1000:
-    sum += n % 10
-    n = n // 10
-
-while n < 1000:
-    sum1 += n % 10
-    n = n // 10
-    if n == 0:
-        break
-if sum == sum1:
-    print("счастливый билет")
-else: print("покупай следующий", sum, sum1)
+# print("введите 6-значный номер билета")
+# n = int(input())
+# sum = 0
+# sum1 = 0
+# while n >= 1000:
+#     sum += n % 10
+#     n = n // 10
+# Х = True
+# while n < 1000:
+#     sum1 += n % 10
+#     n = n // 10
+#     if n == 0:
+#         n = 1001 # флаг
+# if sum == sum1:
+#     print("счастливый билет")
+# else: print("покупай следующий", sum, sum1)
 
 
 # Задача 8: Требуется определить, можно ли от шоколадки размером n
