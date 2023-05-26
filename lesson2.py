@@ -6,7 +6,7 @@
 # Input: 5
 # Output: 120
 # n! - n*(n-1)*(n-2)...*1
-
+"""
 print("введите n")
 n = int(input())
 fact = 1
@@ -14,7 +14,7 @@ while n > 1:
     fact *= n
     n -= 1
 print(fact)
-
+"""
 
 # Задача №11. Решение в группах
 # Дано натуральное число A > 1. Определите, каким по
@@ -67,7 +67,7 @@ while status:
 # диапазоне от –50 до 50
 # Input: 6 -> -20 30 -40 50 10 -10
 # Output: 2
-
+"""
 print('Введите число N: ')
 
 n = int(input())
@@ -85,7 +85,7 @@ while i <= n:
         k=0
 
 print(maxk)
-
+"""
 
 
 
@@ -119,4 +119,7 @@ for i in range(size):
         min = n
     if max < n:
         max = n
-print(k)
+print("не себе")
+print(min)
+print("ceбе")
+print(max)
