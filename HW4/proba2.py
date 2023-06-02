@@ -12,7 +12,8 @@ for i in range(len(NewBush)):
     else: SumBush.append(NewBush[i-1] + NewBush[i] + NewBush[1])
 print(SumBush)
 max_harvest = max(SumBush)
-ind = max_harvest
+ind = SumBush.index(max_harvest)
+print(ind)
 if N - ind > 1:
     print(f'сместиться на {N-ind-1} куста в сторону увеличения номеров')
 elif N - ind == 1:
